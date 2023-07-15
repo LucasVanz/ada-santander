@@ -12,7 +12,6 @@ public class Exercicio2 {
             precoFruta[i] = valorFruta(scanner.nextInt());
         }
         System.out.printf("O valor total a pagar é de R$ %.2f", calculaValorTotal(precoFruta));
-
     }
     public static double valorFruta(int quantidade){
         double precoFrutas;
