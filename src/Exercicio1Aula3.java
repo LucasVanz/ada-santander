@@ -10,12 +10,5 @@ public class Exercicio1Aula3 {
             }
             return precoFrutas;
         }
-        public static double calculaValorTotal(double [] precoFruta){
-            double valorTotal = 0;
-            for (int j = 0; j < precoFruta.length; j++){
-                valorTotal = valorTotal + precoFruta[j];
-            }
-            return valorTotal;
-        }
     }
 
