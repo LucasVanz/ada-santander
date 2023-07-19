@@ -1,3 +1,5 @@
+package aula3;
+
 public class Exercicio1Aula3 {
         public static double valorFruta(double input){
             double precoFrutas;

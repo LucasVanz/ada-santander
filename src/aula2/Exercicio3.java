@@ -1,3 +1,5 @@
+package aula2;
+
 import java.util.Arrays;
 
 public class Exercicio3 {
@@ -5,10 +7,14 @@ public class Exercicio3 {
         int[] numbers = {5, 4, 1, 2, 3};
         int[] ascendingOrder = sortAscendingOrder(numbers);
         int[] descendingOrder = sortDescendingOrder(numbers);
+        int[] oddNumbers = filterOddNumbers(numbers);
+        int[] evenNumbers = filterEvenNumbers(numbers);
 
         System.out.println(Arrays.toString(numbers));
         System.out.println(Arrays.toString(ascendingOrder));
         System.out.println(Arrays.toString(descendingOrder));
+        System.out.println(Arrays.toString(oddNumbers));
+        System.out.println(Arrays.toString(evenNumbers));
     }
 
     public static int [] sortDescendingOrder(int[] numbers){
@@ -38,5 +44,14 @@ public class Exercicio3 {
             }
         }
         return ordemCrescente;
+    }
+
+    public static int [] filterOddNumbers(int [] numbers){
+        //fazer depois
+        return numbers;
+    }
+    public static int [] filterEvenNumbers(int [] numbers){
+        //fazer depois
+        return numbers;
     }
 }

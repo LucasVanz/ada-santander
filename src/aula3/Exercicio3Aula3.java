@@ -1,3 +1,5 @@
+package aula3;
+
 public class Exercicio3Aula3 {
     public static double calculoSalario( double[] input) {
         double tempoServico = input[0];

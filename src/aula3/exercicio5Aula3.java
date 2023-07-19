@@ -1,3 +1,5 @@
+package aula3;
+
 public class exercicio5Aula3 {
     public static boolean elementosRepetidos(double[] input) {
         boolean repeteValor = false;

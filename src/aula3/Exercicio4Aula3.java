@@ -1,4 +1,6 @@
-public class Exercicio4Aula4 {
+package aula3;
+
+public class Exercicio4Aula3 {
     public static int primeiroCaractereUnico(String input) {
         int j = 0;
         int i = 0;

@@ -1,3 +1,5 @@
+package aula3;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
