@@ -1,7 +1,7 @@
 package aula3;
 
 import java.util.Scanner;
-public class Exercicio3Aula6 {
+public class Exercicio6Aula3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite lado A: ");
@@ -13,7 +13,7 @@ public class Exercicio3Aula6 {
         System.out.printf("Area = %.2f metros quadrados", perimetroTriangulo(ladoA,ladoB,ladoC));
     }
     public static double validaLadoC(double ladoC, double ladoA, double ladoB){
-        if (ladoC > (ladoA + ladoB)){
+        if (!(ladoC < (ladoA + ladoB)) && (ladoB < (ladoC + ladoA)) && (ladoA < (ladoB + ladoC))){
             throw new RuntimeException("O último lado do trinângulo deve ser menor que a soma de seus lados");
         }
         return ladoC;
