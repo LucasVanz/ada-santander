@@ -50,7 +50,7 @@ public class Aula4Ex7 {
     public static void eUmTriangulo(int[] input) throws LadosInvalidosException {
         if (!(input[2] < (input[0] + input[1]) && (input[1] < input[0] + input[2]) && (input[0] < input[1] + input[2])))
         {
-            throw new LadosInvalidosException("LadosInvalidosException");
+            throw new LadosInvalidosException();
         }
     }
 }
